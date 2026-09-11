@@ -9,7 +9,7 @@ jobs:
     resource_class: small
     executor:
       name: go/default
-      tag: "1.21"
+      tag: "1.26"
     steps:
       - checkout
       - prodsec/security_scans:
