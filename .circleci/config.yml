@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  go: circleci/go@1.10.0
+  go: circleci/go@4
   prodsec: snyk/prodsec-orb@1
 
 jobs:
